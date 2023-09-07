@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Images and files can be uploaded/submitted to server by setting enctype attribute of form tag to multipart/formdata.
+    enctype specifies how form data would be encoded while submitting to the server. -->
+    <b>Form with Uploading Files</b>
+    <form method="post" enctype="multipart/form-data" action="upload.php">
+        <input type="file" name="pic" />
+        <input type="submit" value="Upload" />
+    </form>
+    <br>
+    <hr>
+    <div>
+        <p>Hello! This is a paragraph.</p>
+    </div>
+    <br>
+    <hr>
+    <b>Nav Elements Inline items</b>
+    <nav>
+        <a href="https://google.com">Google</a>
+        <a href="https://www.yahoo.com">Yahoo!</a>
+        <a href="https://www.bing.com">Bing</a>
+    </nav>
+    <br>
+    <nav role="navigation">
+        <ul>
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://www.yahoo.com">Yahoo!</a></li>
+            <li><a href="https://www.bing.com">Bing</a></li>
+        </ul>
+    </nav>
+
+    <b>HTML5 Navigation Bar</b>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <br>
+    <hr>
+    <b>About Label</b>
+    <input id="cats" type="checkbox" name="Cats">
+    <label for="cats">I like Cats!</label>
+    <br>
+    <hr>
+    <div><b>Audio Elements</b></div>
+    <audio controls>
+        <source src="file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div></div>
+    <br>
+    <div><b>Video Element</b></div>
+    <video width="500" height="700" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <hr>
+    <b>Progress Bar</b>
+    <progress value="22" max="100"></progress>
+</body>
+
+</html>
