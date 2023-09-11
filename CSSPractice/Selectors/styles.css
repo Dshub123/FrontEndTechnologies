@@ -1,0 +1,6 @@
+/* CSS using an ID selector */
+#main-heading {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}

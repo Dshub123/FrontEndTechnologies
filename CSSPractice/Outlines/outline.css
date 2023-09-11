@@ -1,0 +1,30 @@
+p {
+    border: 1px solid black;
+    outline-color:blue;
+    line-height:30px;
+   }
+   .p1{
+    outline-style: dotted;
+   }
+   .p2{
+    outline-style: dashed;
+   }
+   .p3{
+    outline-style: solid;
+   }
+   .p4{
+    outline-style: double;
+   }
+   .p5{
+    outline-style: groove;
+   }
+   .p6{
+    outline-style: ridge;
+   }
+   .p7{
+    outline-style: inset;
+   }
+   .p8{
+    outline-style: outset;
+   }
+      

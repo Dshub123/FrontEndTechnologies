@@ -1,0 +1,28 @@
+.top{
+    margin: 10px;
+   }
+   .bottom{
+    margin: 15px;
+   }
+
+   #myDiv {
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+   }
+
+   p{
+    margin:10px 15px; /* 10px margin-top & bottom And 15px margin-right & left*/
+    
+    /*equals to:*/
+    
+    margin:10px 15px 10px 15px;
+    
+    /*equals to:*/
+    
+    margin:10px 15px 10px;
+    /* margin left will be calculated from the margin right value (=15px) */
+   }
+   
+   

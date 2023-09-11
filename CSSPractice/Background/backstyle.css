@@ -1,0 +1,11 @@
+/* CSS to set a background image for the .myClass */
+.myClass {
+    background-image: url('background.jpg');
+    background-size: cover;
+
+    height: 400px;
+    /* Set the desired height for your background */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printable Page Example</title>
+    <style>
+        /* Default styles for screen */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Media Query for print */
+        @media screen and (min-width: 720px)  {
+            /* CSS rules for printing */
+            body {
+                font-size: 12pt;
+                background-color: blue;
+            }
+
+            h1 {
+                font-size: 18pt;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            /* Additional print-specific styles can be added here */
+        }
+    </style>
+</head>
+<body>
+    <h1>Printable Page Example</h1>
+    <p>This is a paragraph of text that will be printed.</p>
+    <p>Another paragraph for the printed page.</p>
+</body>
+</html>
